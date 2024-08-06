@@ -1,5 +1,5 @@
-# TUMI-booking-bot
-Tumi Events TUM (Technische Universität München) booking tool via scraping.
+# TUMi-events-booking-bot
+TUMi ENS TUM (Technische Universität München) events booking tool via web scraping.
 The tool schedules events by name, date and time (via chat bot).
 When the event datetime is approaching, the tool automatically logs into the account and books a spot.
 
@@ -9,4 +9,9 @@ Once obtained an API Key, add it to the variable API_KEY in  telbot.py file
 1. python3 telbot.py
 2. on Telegram, add the TumEvents bot and type /start to start the booking process.
 
-Note: this tools was created just for fun and it is provided as is. No responsability is taken in case the TUMI account gets banned for using such scraping tool.
+Note: this tools was created just for fun in 2022 and it is provided as is. No responsability is taken in case the TUMI account gets banned for using such web scraping tool.
+
+* LIBRARIES *
+* telebot
+* selenium webdriver
+* threading
