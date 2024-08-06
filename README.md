@@ -1,5 +1,5 @@
 # TUMi-events-booking-bot
-TUMi ENS TUM (Technische Universität München) events booking tool via web scraping.
+TUMi ENS TUM (Technische Universität München) events booking tool via web scraping and telebot.
 The tool schedules events by name, date and time (via chat bot).
 When the event datetime is approaching, the tool automatically logs into the account and books a spot.
 
